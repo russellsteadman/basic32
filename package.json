@@ -1,0 +1,45 @@
+{
+  "name": "basic32",
+  "version": "1.0.0",
+  "description": "Transform decimal OTP codes to shorter Base32 codes",
+  "main": "dist/Basic32.js",
+  "scripts": {
+    "build": "babel Basic32.ts --out-file dist/Basic32.js --source-maps && tsc",
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamtofu/basic32.git"
+  },
+  "keywords": [
+    "otp",
+    "base32",
+    "totp",
+    "hotp",
+    "tfa",
+    "2fa"
+  ],
+  "author": "Russell Steadman <steadman.21@osu.edu> (https://www.russellsteadman.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamtofu/basic32/issues",
+    "email": "steadman.21@osu.edu"
+  },
+  "private": false,
+  "homepage": "https://github.com/teamtofu/basic32#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "types": "dist/Basic32.d.ts",
+  "typings": "dist/Basic32.d.ts"
+}
