@@ -61,4 +61,4 @@ The following character transposition errors are automatically fixed.
 
 ## License
 
-MIT &copy; 2020 [Russell Steadman](https://github.com/teamtofu). See LICENSE.
+MIT &copy; 2021 [Russell Steadman](https://github.com/russellsteadman). See LICENSE.
